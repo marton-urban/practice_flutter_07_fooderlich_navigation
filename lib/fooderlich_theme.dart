@@ -62,7 +62,7 @@ class FooderlichTheme {
     return ThemeData(
       brightness: Brightness.light,
       checkboxTheme: CheckboxThemeData(
-        fillColor: MaterialStateColor.resolveWith((states) {
+        fillColor: WidgetStateColor.resolveWith((states) {
           return Colors.black;
         }),
       ),
